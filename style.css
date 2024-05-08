@@ -1,0 +1,53 @@
+h1{
+    background-color: rgb(234, 169, 85);
+    font-weight: bold;
+    color: aqua;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    /* background-image: url(../computerimg.jpg); */
+   
+}
+h1:active{
+    background-color: tomato;
+    color: chartreuse;
+}
+h1:hover{
+    background-color: cornflowerblue;
+    color: antiquewhite;
+    
+}
+
+#back{
+    background-image: url(../computerimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+    color:tomato;
+    border-radius: 10px;
+    background-color:turquoise;
+    font-family: 'Courier New', Courier, monospace;
+}
+#back:hover{
+    background-image: url(../image.jpg);
+    color:black;
+    font-weight: bold;
+    font-style: italic;
+}
+#email:hover{
+    background-color: orange;
+}
+#password:hover{
+    background-color: whitesmoke;
+}
+#cpassword:hover{
+    background-color: greenyellow;
+}
+#btn{
+    width: 100%;
+    justify-content: center;
+}
+#btn:hover{
+    color: burlywood;
+}
